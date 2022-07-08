@@ -1,0 +1,10 @@
+
+1. An admin should be able to Add new student to the system
+Remove a student from the system
+Update the student details 
+See the details of any/all student in the system
+Add new courses to the system
+Remove a course from the system
+Update the course details 
+See the details of any/all courses in the system (including the current number of student enrolled in the course)
+See the details of any of the 3 streams ( including the courses and count of students in those courses)

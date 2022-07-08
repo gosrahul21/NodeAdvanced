@@ -1,0 +1,35 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+type Course {
+  createdBy: String!
+  duration: Float!
+  id: String!
+  name: String!
+  simple: String!
+}
+
+type Mutation {
+  updateName(id: String!, updateStudentDto: UpdateStudentInput): Student!
+}
+
+type Query {
+  getStreams: [Course!]!
+  student(id: String!): Student!
+  students: [Student!]!
+}
+
+type Student {
+  course: Course!
+  courseId: String!
+  courses: [Course!]!
+  name: String!
+  stream: String!
+}
+
+input UpdateStudentInput {
+  courseId: String
+  name: String
+  stream: String
+}
